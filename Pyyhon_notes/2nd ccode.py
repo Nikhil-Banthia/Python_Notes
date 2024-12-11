@@ -1,0 +1,25 @@
+##strings are immutable you can't change them by running function on them
+a = "!!!nikhil !!!! !!!!!!"
+print(a)
+print(a.upper())
+print(a.lower())
+print(a.rstrip("!"))
+print(a.replace("nikhil","john"))
+print(a.split(" "))
+b = "nikhil"
+print(b.capitalize())
+str1 = "welcome to the console!!!"
+print(len(str1))
+print(len(str1.center(50)))
+print(str1.endswith("!!!"))
+print(str1.endswith("to", 4,10))
+print(str1.find("to"))
+print(str1.isalnum())
+print(str1.isalpha())
+print(str1.islower())
+print(str1.isupper())
+print(str1.istitle())
+print(str1.startswith("welcome"))
+print(str1.swapcase())
+print(str1.title())
+print(str1.capitalize())
